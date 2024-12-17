@@ -37,3 +37,32 @@ const myFun=function() {
     
 }
 console.log(typeof bigNum);
+
+
+
+// ************STACK & MEMORY**********************
+//Stack(used in primitive types) and Heap(used in non-primitive type) memory
+//stack- var declare kara uska copy milta h ek
+//heap- ref id milta h ek og val
+
+let myYTname="ashikhanna"
+
+let anothername=myYTname
+anothername="chaiaurcode"
+
+
+console.log(myYTname);
+console.log(anothername);
+
+let user1={
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let user2=user1
+
+user2.email="sak@google.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
